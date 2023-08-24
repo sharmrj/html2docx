@@ -1,0 +1,18 @@
+{
+  "name": "html2docx",
+  "version": "0.0.1",
+  "description": "Convert html to docx for franklin pages",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@adobe/helix-html2md": "github:adobe/helix-html2md",
+    "@adobe/helix-md2docx": "^2.1.21",
+    "@adobe/helix-mediahandler": "^2.2.10",
+    "github-slugger": "^2.0.0"
+  }
+}
